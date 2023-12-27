@@ -1,9 +1,9 @@
 FROM afrotoo66/Soursafrotoo:slim-buster
 
 #clonning repo 
-RUN git clone https://github.com/afrotoo66/Soursafrotoo.git /root/zesource 
+RUN git clone https://github.com/afrotoo66/Soursafrotoo.git /root/Soursafrotoo 
 #working directory 
-WORKDIR /root/ZESOURCE 
+WORKDIR /root/Soursafrotoo 
 
 # Install requirements
 RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
